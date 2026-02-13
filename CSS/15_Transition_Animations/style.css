@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+main{
+    height: 100vh;
+}
+
+.con1{
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: dimgrey;
+}
+
+.box{
+    /* border: 2px solid green; */
+    text-align: center;
+    box-sizing: border-box;
+    width: 12%;
+    height: 50%;
+    color: aliceblue;
+}
+
+.box1{
+    background-color: tomato;
+}
+
+.box1:hover{
+    background-color: violet;
+    color: springgreen;
+    transition: background-color .5s ease-in-out 2s, color 1s ease;
+    /* transition-property: background-color;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+    transition-delay: 2s; */
+}
+
+.box2{
+    background-color: teal;
+}
+
+.box2:hover{
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: hover-animation 2s ease-in-out 1s forwards;
+}
+
+@keyframes hover-animation {
+    100%{
+        background-color: chocolate;
+        color: yellow;
+    }
+    
+}
+
+.box3{
+    background-color: steelblue;
+}
+
+.box4{
+    background-color: seagreen;
+}
+
+.box5{
+    background-color: peru;
+}

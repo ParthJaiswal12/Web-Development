@@ -1,0 +1,47 @@
+main {
+    border: 2px solid blue;
+    height: 300vh;
+}
+
+.con {
+    border: 2px solid black;
+    height: 180vh;
+    width: 90vw;
+    margin: auto;
+}
+
+div {
+    box-sizing: border-box;
+    border: 2px solid red;
+    height: 10%;
+    width: 20%;
+}
+
+.box1 {
+    background-color: teal;
+    position: fixed;
+    left: 50em;
+}
+
+.box2 {
+    background-color: crimson;
+    position: sticky;
+    top: 0%;
+
+}
+
+.box3 {
+    background-color: slateblue;
+    position: relative;
+    /* moves object relative to its initial place */
+    top: 60em;
+    left: 10em;
+}
+
+.box4 {
+    background-color: sienna;
+    position: absolute;
+    /* moves relative to the nearest positioned element(any element other than static position is positioned element\ default posiioned element is HTML Tag) */
+     bottom: -80vh; 
+    right: 10px;
+}

@@ -1,0 +1,18 @@
+.color_1{
+    color: green;
+}
+
+.color_2{
+    color: #FF411A;
+}
+
+.color_3{
+    color: rgb(131, 29, 226);
+}
+
+.color_4{
+    color: rgba(0, 128, 128, 0.749);
+}
+.color_5{
+    color: hsl(240, 100%, 50%);
+}

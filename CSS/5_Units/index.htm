@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Units</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Types of Units - </h1>
+    <ul>
+        <li>Absolute Units - Unit which are fixed and does not change with screen size - 
+            <ol>
+                <li>Pixel - px</li>
+                <li>Centimeter - cm</li>
+                <li>Milimeter - mm</li>
+                <li>Inches - in</li>
+                <li>Points(1/72 of an inch) - pt</li>
+            </ol>
+        </li>
+
+        <li>Relative Units - It is responsive and scale based on parent element - 
+            <ol>
+                <li>persent of parent - %</li>
+                <li>relative to parent - em</li>
+                <li>relative to root element(HTML) - rem</li>
+                <li>viewport width - vw</li>
+                <li>viewport height - vh</li>
+                <li>smaller viewport dimension(height in case of pc) - vmin</li>
+                <li>larger viewport dimension(width is case of pc) - vbmax</li>
+            </ol>
+        </li>
+
+        <li>calc() function will calculate given dimension - cal(100% - 20px)</li>
+
+    </ul>
+    <div class="parent">
+        this is parent
+        <div class="child">This is child</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+.boxmodel {
+    text-align: center;
+    color: blue;
+    margin: 1.1em;
+    padding: 1.1em;
+    border: .1em solid red;
+    /* box-sizing: content-box; This Proprtiy is default whem this property is applied the hight and width will only applied to content this will not include margin and padding*/
+    /* box-sizing: border-box; This Property will give hight by combinaing all content , margin and padding */
+}
+
+.cardC {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1 {
+    display: inline-block;
+    border: 5px solid black;
+    border-radius: 1em;
+    background-color: royalblue;
+    color: gold;
+    text-align: center;
+    height: 30em;
+    width: 20em;
+    margin: 1.1em;
+    padding: 1.1em;
+    box-sizing: content-box;
+}
+
+.card2 {
+    display: inline-block;
+    border: 5px solid black;
+    border-radius: 1em;
+    background-color: royalblue;
+    color: gold;
+    text-align: center;
+    height: 30em;
+    width: 20em;
+    margin: 1.1em;
+    padding: 1.1em;
+    box-sizing: border-box;
+}

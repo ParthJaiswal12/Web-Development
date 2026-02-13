@@ -1,0 +1,33 @@
+main{
+    display: flex;
+}
+
+
+div{
+    box-sizing: border-box;
+    /* display: ; */
+    padding: 1em;
+    border: 2px solid black;
+    width: 32vw;
+    height: 32vw;
+    margin: auto;
+}
+
+.box1{
+    background-image: url("Perfume.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.box2{
+    height: 64vw;
+    background-image: url("Wukong_Staf.png");
+    background-size:32vw 32vw;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.box3{
+    background: url('Pipe.png') center center/cover no-repeat;
+}

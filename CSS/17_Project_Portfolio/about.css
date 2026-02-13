@@ -1,0 +1,109 @@
+:root {
+
+    /* theme 1 */
+    --teme1-space-indigo: #22223bff;
+    --teme1-dusty-grape: #4a4e69ff;
+    --teme1-lilac-ash: #9a8c98ff;
+    --teme1-almond-silk: #c9ada7ff;
+    --teme1-parchment: #f2e9e4ff;
+
+    /* theme 2 */
+    --theme2-ink-black: #0d1b2aff;
+    --theme2-prussian-blue: #1b263bff;
+    --theme2-dusk-blue: #415a77ff;
+    --theme2-dusty-denim: #778da9ff;
+    --theme2-alabaster-grey: #e0e1ddff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--theme2-alabaster-grey);
+}
+
+.about {
+    text-decoration: underline;
+}
+
+nav {
+    /* border: 2px solid red; */
+    height: 8em;
+    background-color: var(--theme2-prussian-blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    /* border: 2px solid blue; */
+    padding: 1em;
+}
+
+.nav-bar {
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar ul {
+    /* border: 2px solid green; */
+    border-radius: .5em;
+    background-color: var(--theme2-dusk-blue);
+    list-style: none;
+    font-size: 1.1em;
+    width: 50vw;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-bar ul a {
+    text-decoration: none;
+}
+
+
+main {
+    background-color: var(--theme2-ink-black);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.image {
+    border: 2px solid var(--theme2-dusty-denim);
+    border-radius: 50%;
+    height: 20em;
+    width: 20em;
+    background-image: url('download.jpg');
+    background-size: contain;
+    margin-top: 2em;
+}
+
+.about-sec {
+    text-align: center;
+    width: 80%;
+    padding: 2em;
+}
+
+footer {
+    /* border: 2px solid black; */
+    background-color: var(--theme2-prussian-blue);
+    height: 20em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+footer div {
+    text-align: center;
+    padding: 1em;
+    border-radius: 1em;
+    width: 25%;
+    background-color: var(--theme2-dusk-blue);
+    height: 80%;
+}

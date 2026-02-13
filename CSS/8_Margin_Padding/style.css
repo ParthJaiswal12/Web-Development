@@ -1,0 +1,23 @@
+main div{
+    border:3px solid black;
+    width: 32vw;
+    height: 32vw;
+}
+
+.box1{
+    margin: 2em;
+    padding: 2em;
+}
+
+.box2{
+    margin: 3em;
+    padding: 3em;
+}
+
+.box3{
+    margin: 5em;
+    padding: 5em;
+}
+
+/* margin:1px 2px 3px 4px; top | right | bottom | left */
+/* margin 2px 4px ; top-bottom | left-right */

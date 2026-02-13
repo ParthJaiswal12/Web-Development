@@ -1,0 +1,74 @@
+.navbar {
+    /* border: 2px solid blue; */
+    background-color: coral;
+    font-size: 1.5em;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+main {
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+    height: 80vh;
+}
+
+.sec1 {
+    /* border: 2px solid yellow; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.box {
+    /* border: 2px solid green; */
+    box-sizing: border-box;
+    margin: .5em;
+    width: 20%;
+    height: 100%;
+    background-color: tomato;
+}
+
+@media (orientation: portrait) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar {
+        /* border: 2px solid blue; */
+        background-color: darkgoldenrod;
+        font-size: 1.2em;
+
+    }
+
+    .navbar ul {
+        list-style: none;
+        display: flex;
+    }
+
+    .sec1 {
+        box-sizing: border-box;
+        /* border: 2px solid yellow; */
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box {
+        /* border: 2px solid green; */
+        box-sizing: border-box;
+        width: 100vw;
+        margin: .5em 0em;
+        background-color: tomato;
+    }
+}
+
+/* @media (min-width: 1000px) and (max-width:1200px) {} */
+
+/* @media print {} */ 
+/* css under this will be applied when printed */

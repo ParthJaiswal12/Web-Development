@@ -1,0 +1,21 @@
+.typography{
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    line-height: 3;
+    letter-spacing: 3px;
+    word-spacing: 8px;
+    text-decoration: underline;
+}
+
+.para1{
+    text-transform: uppercase;
+    text-decoration: wavy overline blue 4px;
+}
+
+.para2{
+    text-transform: lowercase;
+    text-decoration: line-through;
+}

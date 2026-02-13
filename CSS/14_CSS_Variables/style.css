@@ -1,0 +1,21 @@
+:root{
+    --Border-color:red;
+    --background-color:royalblue;
+    --text-color:gold;
+}
+
+
+.main{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1{
+    border: 2px solid var(--Border-color);
+    width: 5em;
+    height: 5em;
+    background-color:var(--background-color) ;
+    color: var(--text-color);
+}
